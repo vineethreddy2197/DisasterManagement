@@ -74,6 +74,28 @@ int main()
                     }
                 case '2':
                     {
+                        char op;
+                        cout<<"1->AUTO MAIL"<<endl;
+                        cout<<"2->CUSTOM MAIL"<<endl;
+                        cout<<"SELECT OPTION : ";
+                        cin>>op;
+                        if(op=='1')
+                        {
+                            string acmd;
+                            acmd="python auto.py";
+                            system(acmd.c_str());
+                        }
+                        else if(op=='2')
+                        {
+                            string ccmd;
+                            ccmd="python custom.py";
+                            system(ccmd.c_str());
+                        }
+                        else
+                        {
+
+                            cout<<"INVALID OPTION"<<endl;
+                        }
                         //Auto mail
                     }
                 case '3':
