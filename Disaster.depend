@@ -1,0 +1,62 @@
+# depslib dependency file v1.0
+1500370802 source:c:\users\vineeth\desktop\shit\disaster\main.cpp
+	<iostream>
+	<cstdlib>
+	"VictimSearch.h"
+	"AdminLogin.h"
+	"VictimEntry.h"
+	"ItemCheck.h"
+
+1500360146 c:\users\vineeth\desktop\shit\disaster\victimsearch.h
+	<string>
+
+1500362422 source:c:\users\vineeth\desktop\shit\disaster\victimsearch.cpp
+	"VictimSearch.h"
+	<iostream>
+	<fstream>
+
+1500361496 source:c:\users\vineeth\desktop\shit\disaster\adminlogin.cpp
+	"AdminLogin.h"
+	<iostream>
+	<fstream>
+	<cstring>
+
+1500276181 c:\users\vineeth\desktop\shit\disaster\adminlogin.h
+	<string>
+
+1500360631 source:c:\users\vineeth\desktop\shit\disaster\victimentry.cpp
+	"VictimEntry.h"
+	<fstream>
+	<iostream>
+
+1500360662 c:\users\vineeth\desktop\shit\disaster\victimentry.h
+	<string>
+
+1500363180 source:c:\users\vineeth\desktop\shit\disaster\supply.cpp
+	"supply.h"
+	<iostream>
+	<fstream>
+
+1500363110 c:\users\vineeth\desktop\shit\disaster\supply.h
+
+1500367660 c:\users\vineeth\desktop\shit\disaster\supplycheck.h
+	<string>
+
+1500367660 source:c:\users\vineeth\desktop\shit\disaster\supplycheck.cpp
+	"SupplyCheck.h"
+	<iostream>
+	<fstream>
+	<cstring>
+
+1500368906 source:c:\users\vineeth\desktop\shit\disaster\goodcheck.cpp
+	"GoodCheck.h"
+	<iostream>
+	<cstring>
+	<fstream>
+
+1500368906 c:\users\vineeth\desktop\shit\disaster\goodcheck.h
+	<string>
+
+1500370511 c:\users\vineeth\desktop\shit\disaster\itemcheck.h
+	<string>
+

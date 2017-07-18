@@ -1,0 +1,6 @@
+rice : 20 bags
+wheat : 10 bags
+sugar : 40 bags
+oil : 20 liters
+milk : 20 literscorn 50
+honey 10bags
