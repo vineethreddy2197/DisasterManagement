@@ -15,7 +15,7 @@ int main()
     cout<<"3->VICTIM SEARCH "<<endl;
     cout<<"4->MAGNITUDE OF DISASTER "<<endl;
     cout<<"5->ADMIN LOGIN"<<endl;
-    char c=0;
+    char c;
     cout<<"Enter Choice : ";
     cin>>c;
     switch(c)
@@ -48,7 +48,7 @@ int main()
     case ('5'):
         {
 
-            char a=0;
+            char a;
             AdminLogin *o=new AdminLogin();
             if(o->loginValidate()==true)
             {
@@ -163,4 +163,5 @@ int main()
         continue;
     }
     }
+    exit(0);
 }
