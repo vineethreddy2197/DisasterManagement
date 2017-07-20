@@ -58,6 +58,7 @@ int main()
                 cout<<"3->NEAREST RELIEF DETAILS"<<endl;
                 cout<<"4->VICTIM SEARCH "<<endl;
                 cout<<"5->SUPPY DETAILS"<<endl;
+                cout<<"6->SEND TWITTER ALERT"<<endl;
                 cout<<"SELECT OPTION : ";
                 cin>>a;
                 switch(a)
@@ -131,7 +132,14 @@ int main()
                         //supplies
                         break;
                     }
-                case '6'...'100':
+                case '6':
+                    {
+                        string twicmd;
+                        twicmd="python twitter.py";
+                        system(twicmd.c_str());
+                        break;
+                    }
+                case '7'...'100':
                     {
                         cout<<"ERROR!!!"<<endl;
                         break;
