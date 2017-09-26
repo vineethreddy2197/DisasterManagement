@@ -21,6 +21,7 @@ void VictimSearch::searchAction()
             cout<<"FOUND : "<<line<<endl;
         }
     }
+    sear.close();
     if(c==0)
     {
         cout<<"NOT FOUND"<<endl;

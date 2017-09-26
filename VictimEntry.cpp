@@ -13,5 +13,6 @@ void VictimEntry::getName()
     ofstream ne;
     ne.open("victim.txt",ios::app);
     ne<<name<<endl;
+    ne.close();
 }
 

@@ -29,7 +29,7 @@ int main()
         }
     case '2':
         {
-            string mailcmd="python mail.py";
+            string mailcmd="python auto.py";
             system(mailcmd.c_str());
             //Mail
             break;
@@ -59,6 +59,7 @@ int main()
                 cout<<"4->VICTIM SEARCH "<<endl;
                 cout<<"5->SUPPY DETAILS"<<endl;
                 cout<<"6->SEND TWITTER ALERT"<<endl;
+                cout<<"7->GENERATE REPORT"<<endl;
                 cout<<"SELECT OPTION : ";
                 cin>>a;
                 switch(a)
@@ -139,7 +140,15 @@ int main()
                         system(twicmd.c_str());
                         break;
                     }
-                case '7'...'100':
+                case '7':
+                    {
+                        string repid;
+                        repid="python pil.py";
+                        system(repid.c_str());
+                        cout<<"SUCESS!"<<endl;
+                        break;
+                    }
+                case '8'...'100':
                     {
                         cout<<"ERROR!!!"<<endl;
                         break;
