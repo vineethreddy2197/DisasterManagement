@@ -1,7 +1,7 @@
 
 from googleplaces import GooglePlaces, types, lang
 
-YOUR_API_KEY = 'AIzaSyAkzkD5rxs4FnVXXVOWc6CFglnMBNdagZ8'
+YOUR_API_KEY = '...'
 
 google_places = GooglePlaces(YOUR_API_KEY)
 query_result = google_places.nearby_search(
