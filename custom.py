@@ -6,5 +6,8 @@ sub=input('Enter Subject : ')
 msg=input('Enter message :')
 yag = yagmail.SMTP(mail,passw)
 contents = [msg]
-yag.send(recid, sub, contents)
-print("Sent Successfully!!!")
+try:
+    yag.send(recid, sub, contents)
+    print("Sent Successfully!!!")
+except:
+    print('Send error')

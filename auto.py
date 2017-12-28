@@ -6,8 +6,10 @@ fis=open('sub.txt','r')
 sub=fis.read()
 fim=open('sub.txt','r')
 msg=fim.read()
-yag = yagmail.SMTP(email,word)
-contents = [msg]
-yag.send(rec, sub, contents)
-print("Sent Successfully!!!")
-
+try:
+    yag = yagmail.SMTP(email,word)
+    contents = [msg]
+    yag.send(rec, sub, contents)
+    print("Sent Successfully!!!")
+except:
+    print('Send error!')
