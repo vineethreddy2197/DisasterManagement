@@ -66,11 +66,14 @@ int main()
                 {
                 case '1':
                     {
-                        VictimEntry *o=new VictimEntry();
-                        o->getName();
-                        cout<<"DONE"<<endl;
+                        //VictimEntry *o=new VictimEntry();
+                        //o->getName();
+                        //cout<<"DONE"<<endl;
                         //Victim Entry
-                        delete o;
+                        //delete o;
+                        string sql;
+                        sql="C:\\Users\\Vineeth\\AppData\\Local\\Programs\\Python\\Python35-32\\python C:\\Users\\Vineeth\\Desktop\\shit\\DisasterManagement\\sql\\insert.py";
+                        system(sql.c_str());
                         break;
 
                     }
@@ -107,14 +110,17 @@ int main()
                     }
                 case '4':
                     {
-                        VictimSearch *o=new VictimSearch();
-                        o->searchAction();
-                        delete o;
+                        //VictimSearch *o=new VictimSearch();
+                        //o->searchAction();
+                        //delete o;
+                        string instr;
+                        instr="C:\\Users\\Vineeth\\AppData\\Local\\Programs\\Python\\Python35-32\\python C:\\Users\\Vineeth\\Desktop\\shit\\DisasterManagement\\sql\\insert.py";
+                        system(instr.c_str());
                         break;
                     }
                 case '5':
                     {
-                        ItemCheck *o=new ItemCheck();
+                        /*ItemCheck *o=new ItemCheck();
                         cout<<"SELECT OPTION : ";
                         char icheck;
                         cin>>icheck;
@@ -130,8 +136,12 @@ int main()
                         {
                             cout<<"INVALID ERROR!!!"<<endl;
                         }
-                        //supplies
+                        */
+                        string supstr;
+                        supstr="C:\\Users\\Vineeth\\AppData\\Local\\Programs\\Python\\Python35-32\\python C:\\Users\\Vineeth\\Desktop\\shit\\DisasterManagement\\sql\\supplies.py";
+                        system(supstr.c_str());
                         break;
+
                     }
                 case '6':
                     {
