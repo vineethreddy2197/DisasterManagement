@@ -8,8 +8,8 @@ try:
 except:
     print("Login failed!")
 try:
-    cursor.execute("select * from supplies")
+    cursor.execute("select * from supply")
     for n,q in cursor:
-        print(" ProductName : " + n + "  ProductQuantity : " + str(q))
+        print("ProductName : " + n + "  ProductQuantity : " + str(q))
 except:
     print("Request failed")

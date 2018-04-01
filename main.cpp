@@ -36,9 +36,13 @@ int main()
         }
     case '3':
         {
-            VictimSearch *o=new VictimSearch();
-            o->searchAction();
-            delete o;
+            //VictimSearch *o=new VictimSearch();
+            //o->searchAction();
+            //delete o;
+            //break;
+            string nstr;
+            nstr="C:\\Users\\Vineeth\\AppData\\Local\\Programs\\Python\\Python35-32\\python C:\\Users\\Vineeth\\Desktop\\shit\\DisasterManagement\\sql\\search.py";
+            system(nstr.c_str());
             break;
         }
     case '4':
@@ -114,7 +118,7 @@ int main()
                         //o->searchAction();
                         //delete o;
                         string instr;
-                        instr="C:\\Users\\Vineeth\\AppData\\Local\\Programs\\Python\\Python35-32\\python C:\\Users\\Vineeth\\Desktop\\shit\\DisasterManagement\\sql\\insert.py";
+                        instr="C:\\Users\\Vineeth\\AppData\\Local\\Programs\\Python\\Python35-32\\python C:\\Users\\Vineeth\\Desktop\\shit\\DisasterManagement\\sql\\search.py";
                         system(instr.c_str());
                         break;
                     }
